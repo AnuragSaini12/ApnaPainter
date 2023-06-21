@@ -544,6 +544,34 @@ section {
   }
 }
 
+@media (max-width: 786px) {
+  .header .btn-getstarted {
+    margin: 0 15px 0 0;
+    padding: 6px 20px;
+    font-size: 12px;
+  }
+
+  .header .logo img {
+    max-height: 40px;
+    margin-right: 6px;
+  }
+  
+  .header .logo h1 {
+    font-size: 20px;
+    margin: 0;
+    font-weight: 600;
+    color: var(--color-secondary);
+  }
+  
+  .header .logo span {
+    color: var(--color-primary);
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 3px;
+  }
+  
+}
+
 /*--------------------------------------------------------------
 # Scroll Top Button
 --------------------------------------------------------------*/
