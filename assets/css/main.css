@@ -2024,10 +2024,48 @@ section {
   
   .social-box .box:hover {
    box-shadow: 0 0 6px #4183D7;
+   color: #E84545;
   }
   
+  .social-box .box h6{
+    font-weight: 600;
+    font-size: 18px;
+  }
+
   .social-box .fa {
     color: #4183D7;
+  }
+
+  @media (max-width: 786px) {
+    
+    .social-box .box {
+      background: #FFF;
+      border-radius: 10px; 
+      cursor: pointer;
+      margin: 20px 0;
+      padding: 40px 10px;
+      transition: all 0.5s ease-out;
+    }
+    
+    .social-box .box:hover {
+     box-shadow: 0 0 6px #4183D7;
+     color: #E84545;
+    }
+    
+    .social-box .box h6{
+      font-weight: 600;
+      font-size: 20px;
+    }
+
+    .social-box .box img{
+      object-fit: cover;
+      width: 90%;
+    }
+    
+    .social-box .fa {
+      color: #4183D7;
+    }
+    
   }
     /* ---- Services and product ends ---- */
 
@@ -2501,22 +2539,6 @@ section {
   color: rgba(var(--color-default-rgb), 0.4);
   font-size: 14px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*--------------------------------------------------------------
 # About Section
