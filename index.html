@@ -149,7 +149,7 @@
     <!-- Stats Section - Home Page -->
     <section id="stats" class="stats">
 
-      <img src="assets/img/stats-bg.jpg" alt="" data-aos="fade-in">
+      <img src="assets/images/services/interior-banner.jpeg" alt="" data-aos="fade-in">
 
       <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
 
@@ -164,14 +164,14 @@
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="500" data-purecounter-duration="1" class="purecounter"></span>
+              <span data-purecounter-start="0" data-purecounter-end="1000" data-purecounter-duration="1" class="purecounter"></span>
               <p>Total Works</p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6">
             <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="1000" data-purecounter-duration="1" class="purecounter"></span>
+              <span data-purecounter-start="0" data-purecounter-end="1500" data-purecounter-duration="1" class="purecounter"></span>
               <p>Happy Customers</p>
             </div>
           </div><!-- End Stats Item -->
@@ -580,7 +580,7 @@
     <!-- Call-to-action Section - Home Page -->
     <section id="call-to-action" class="call-to-action">
 
-      <img src="assets/img/cta-bg.jpg" alt="">
+      <img src="assets/images/banner.jpg" alt="">
 
       <div class="container">
         <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
@@ -607,8 +607,7 @@
           <div class="col-lg-5 info" data-aos="fade-up" data-aos-delay="100">
             <h3>Testimonials</h3>
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+              One of the aspects I appreciated the most was their efficiency. They completed the project on time and within the budget, which is always a relief for homeowners. The team worked diligently, and I was impressed by their commitment to getting the job done right the first time.
             </p>
           </div>
 
@@ -883,7 +882,7 @@
 
         <div class="row gy-4">
 
-          <div class="col-lg-6">
+          <div class="col-lg-12">
 
             <div class="row gy-4">
               <div class="col-md-6">
@@ -919,12 +918,10 @@
                   <p>24*7 Availabe</p>
                 </div>
               </div><!-- End Info Item -->
-
             </div>
-
           </div>
 
-          <div class="col-lg-6">
+          <!-- <div class="col-lg-6">
             <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
               <div class="row gy-4">
 
@@ -949,12 +946,13 @@
                   <div class="error-message"></div>
                   <div class="sent-message">Your message has been sent. Thank you!</div>
 
-                  <button type="submit">Enquire Now</button>
+                  <button type="submit">Send Message</button>
                 </div>
 
               </div>
             </form>
-          </div><!-- End Contact Form -->
+            <div id="response"></div>
+          </div>End Contact Form -->
 
         </div>
 
@@ -1049,6 +1047,18 @@
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
-</body>
 
+  <!-- <script>
+    const scriptURL = "https://script.google.com/u/0/home/projects/ 1LkDLt6pGMOAP_-zWwlCHiInn6tD3aq_4HZ0hK--AJdJE4xy1VpjJhjkx/edit"
+    const form2 = document.forms['contact_form2']
+		  
+			form2.addEventListener('submit', e => {
+			  e.preventDefault()
+			  fetch(scriptURL, { method: 'POST', body: new FormData(form2)})
+				.then(response => alert("Thank you! your form is submitted successfully." ))
+				.then(() => {  window.location.reload(); })
+				.catch(error => console.error('Error!', error.message))
+			})
+  </script>   -->
+</body>
 </html>
